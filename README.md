@@ -43,8 +43,8 @@ pip install -e .
 ## Repository Structure
 
 ```
-PyGrowthClean/
-├── growthcleanr/     # Core Python package
+GrowthCleanPy/
+├── growthcleanpy/     # Core Python package
 ├── tests/            # Unit tests
 ├── examples/         # Example notebooks
 ```
