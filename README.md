@@ -1,4 +1,4 @@
-#PyGrowthClean
+# PyGrowthClean
 
 A Python version of the [growthcleanr](https://github.com/carriedaymont/growthcleanr) package, which provides automated cleaning and standardization of pediatric growth data such as height and weight measurements.
 
