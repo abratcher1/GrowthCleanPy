@@ -35,23 +35,10 @@ pip install -e .
 ### Basic Example
 
 ```python
-from growthcleanr.cleaner import clean_growth_data
-
-# Sample data: list of dicts or load from CSV/DF
-data = [
-    {"id": 1, "age": 5.5, "sex": "M", "height": 110.0, "weight": 18.0},
-    {"id": 2, "age": 6.0, "sex": "F", "height": 115.0, "weight": 20.0},
-]
-
-cleaned = clean_growth_data(data)
-print(cleaned)
+#to be added
 ```
 
-### CLI Example
 
-```bash
-growthcleanr --input data.csv --output cleaned.csv
-```
 
 ## Repository Structure
 
