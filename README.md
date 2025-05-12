@@ -1,4 +1,4 @@
-# PyGrowthClean
+# GrowthCleanPy
 
 A Python version of the [growthcleanr](https://github.com/carriedaymont/growthcleanr) package, a tool for automatically cleaning and standardizing pediatric growth data such as height and weight. It detects implausible measurements by analyzing each patient's growth over time and comparing it to established pediatric growth charts. 
 
@@ -20,8 +20,8 @@ It also includes a Python version of the CDC's SAS macro for calculating pediatr
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/growthcleanr-python.git
-cd PyGrowthClean
+git clone https://github.com/yourusername/GrowthCleanPy.git
+cd GrowthCleanPy
 ```
 
 Install in development mode:
