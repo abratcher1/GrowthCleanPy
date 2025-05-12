@@ -1,12 +1,14 @@
 # PyGrowthClean
 
-A Python version of the [growthcleanr](https://github.com/carriedaymont/growthcleanr) package, which provides automated cleaning and standardization of pediatric growth data such as height and weight measurements.
+A Python version of the [growthcleanr](https://github.com/carriedaymont/growthcleanr) package, a tool for automatically cleaning and standardizing pediatric growth data such as height and weight. It detects implausible measurements by analyzing each patient's growth over time and comparing it to established pediatric growth charts. 
 
-This package implements the growth data cleaning algorithm developed by Daymont et al., following the specifications detailed in Supplemental File 3 of their published study:
+Each measurement is flagged as either valid or implausible, with specific codes explaining why a value was excluded. All original data remains intact—only a new column of flags is added—so researchers can decide which measurements to include or exclude in their studies of EHR growth data.
+
+This package implements the growth cleaning algorithm developed by Daymont et al., as detailed in Supplemental File 3 of their published paper:
 
 >Carrie Daymont, Michelle E. Ross, A. Russell Localio, Alexander G. Fiks, Richard C. Wasserman, Robert W. Grundmeier. Automated identification of implausible values in growth data from pediatric electronic health records. Journal of the American Medical Informatics Association, Volume 24, Issue 6, November 2017, Pages 1080–1087. https://doi.org/10.1093/jamia/ocx037.
 
-In addition, this package includes a Python version of the CDC's SAS macro for calculating pediatric growth percentiles and z-scores
+It also includes a Python version of the CDC's SAS macro for calculating pediatric growth percentiles and z-scores.
 
 ## Features
 - Implements logic for identifying outliers in height and weight data
